@@ -1,0 +1,21 @@
+{
+  "name": "gateway-for-q",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BigWaffleMonster",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/gateway": "^2.1.4",
+    "apollo-server": "^3.10.3",
+    "apollo-server-core": "^3.10.3",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
